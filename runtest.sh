@@ -17,7 +17,8 @@ runtest() {
   echo "$input => $output"
 }
 
-# build -> ./target/debug/my-lang-rust
+# compile -> ./target/debug/my-lang-rust
+# cargo build --release
 cargo build
 
 
