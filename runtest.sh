@@ -38,5 +38,10 @@ runtest '+ 10 20' '30'
 runtest '- 10 1' '9'
 runtest '* 2 3' '6'
 runtest '/ 10 5' '2'
+runtest '+ 2 * 2 2' '6'
+
+runtest 'A[+ 2 2 ] A()' '4'
+runtest 'C[* 3 2 ] C()' '6'
+
 
 echo OK
